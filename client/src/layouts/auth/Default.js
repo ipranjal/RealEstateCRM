@@ -42,21 +42,7 @@ function AuthIllustration(props) {
           overflow={"hidden"}
           right="0px"
         >
-          <Link
-            to="https://prolinkinfotech.com/"
-            target="_blank"
-            style={{ height: "50%", width: "50%" }}
-          >
-            <Flex
-              bg={`url(${illustrationBackground})`}
-              justify="center"
-              align="center"
-              w="100%"
-              h="100%"
-              bgSize="cover"
-              bgPosition="50%"
-            />
-          </Link>
+          
           {/* <Box
             border={'1px solid'}
             p={4}

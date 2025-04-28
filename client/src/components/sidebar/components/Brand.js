@@ -46,7 +46,7 @@ export function SidebarBrand(props) {
             onClick={() => !from && setOpenSidebar(!openSidebar)}
             userSelect={"none"}
           >
-            {openSidebar === true ? "Prolink" : "Pr"}
+            {openSidebar === true ? "Elevate" : "EP"}
           </Heading>
         )}
       </Flex>

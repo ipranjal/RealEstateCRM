@@ -179,7 +179,7 @@ export default function AdminNavbar(props) {
                 onClick={() => !props?.from && setOpenSidebar(!openSidebar)}
                 userSelect={"none"}
               >
-                {openSidebar === true ? "Prolink" : "Pr"}
+                {openSidebar === true ? "Elevate" : "EP"}
               </Heading>
             )}
           </Flex>
@@ -203,7 +203,7 @@ export default function AdminNavbar(props) {
               />
             ) : (
               <Heading my={4} cursor={"pointer"} userSelect={"none"}>
-                {openSidebar === true ? "Prolink" : "Pr"}
+                {openSidebar === true ? "Elevate" : "EP"}
               </Heading>
             )}
           </Link>
