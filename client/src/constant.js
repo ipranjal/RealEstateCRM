@@ -1,3 +1,3 @@
 export const constant = {
-  baseUrl: 'http://127.0.0.1:5001/',
+  baseUrl: 'http://66.228.53.159:5001/',
 };
